@@ -21,22 +21,6 @@ a {
     --dark: #181d38;
 }
 
-/* .fw-medium {
-    font-weight: 600 !important;
-}
-
-.fw-semi-bold {
-    font-weight: 700 !important;
-}
-
-.back-to-top {
-    position: fixed;
-    display: none;
-    right: 45px;
-    bottom: 45px;
-    z-index: 99;
-} */
-
 .navbar-light .navbar-nav .nav-link {
     margin-right: 20px;
     padding: 25px 0;
@@ -181,7 +165,7 @@ span {
 }
 
 .armor {
-    background-image: url(/img/zb/1.png);
+    background-image: url(../img/zb/1.png);
     height: 500px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -227,46 +211,6 @@ h5 {
     font-size: 22px;
     margin-right: 10px;
 }
-
-/* .main-2 {
-    position: relative;
-}
-.plastik {
-    background-image: url(/img/vk/1.png);
-    height: 500px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50%;
-    position: relative;
-    display: flex;
-}
-
-.plastik::after {
-    content: "";
-    position: absolute;
-    background-color: #000000;
-    width: 100%;
-    top: 0;
-    left: 0;
-    height: 100%;
-    opacity: .65;
-}
-
-.plastik-text {
-    color: #ffffff;
-    z-index: 1;
-    margin: auto 0;
-    flex-direction: column;
-}
-
-.span-2 {
-    color: #06BBCC;
-    display: block;
-    margin-left: 15px;
-    line-height: 35px;
-    font-size: 22px;
-    margin-right: 10px;
-} */
 
 .row {
     display: flex;
@@ -354,4 +298,34 @@ footer a:hover {
 .logo {
     margin-bottom: 15px;
     color: #000000;
+}
+
+
+.gallery {
+    margin-top: 25px;
+    margin-left: 25px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+}
+.gallery img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+    height: 75%;
+}
+.gallery img:hover {
+    transform: scale(1.25);
+}
+
+.zelena_brona {
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+.carousel-item img {
+height: 50%;
+margin: 20px auto;
 }
