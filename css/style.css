@@ -376,19 +376,29 @@ footer a:hover {
 
 .gallery-item {
     width: calc(33.333% - 20px);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    border-radius: 18px;
     transition: transform 0.3s ease;
     cursor: pointer;
+    width: 300px;
+    height: 380px;
+}
+
+.photo-9 img {
+    height: 500px
+}
+
+.photo-8 img {
+    height: 275px;
 }
 
 .gallery-item:hover {
-    transform: scale(1.05);
+    transform: scale(1.35);
 }
 
 .gallery-item img {
     max-width: 100%;
     max-height: 100%;
+    width: 300px;
+    height: 380px;
     object-fit: cover;
     border-radius: 18px;
     margin: 0 2px;
@@ -408,4 +418,16 @@ footer a:hover {
 
 .img_5 {
     height: 100%;
+}
+
+.vidznaki-text {
+    font-size: 24px;
+    text-indent: 20px;
+
+}
+
+.zvity-text {
+    font-size: 24px;
+    text-indent: 25px;
+    text-align: center;
 }
