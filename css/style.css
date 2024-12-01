@@ -221,6 +221,7 @@ h5 {
         line-height: 25px;
     }
 }
+
 @media (max-width: 641px) {
     .span {
         display: inline-block;
@@ -228,6 +229,7 @@ h5 {
         line-height: 20px;
     }
 }
+
 @media (max-width: 425px) {
     .span {
         display: inline-block;
@@ -423,11 +425,62 @@ footer a:hover {
 .vidznaki-text {
     font-size: 24px;
     text-indent: 20px;
-
+    margin-left: 5px;
 }
 
 .zvity-text {
     font-size: 24px;
     text-indent: 25px;
     text-align: center;
+}
+
+.donate-text {
+    font-size: 22px;
+}
+
+.donate-title {
+    text-align: center;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.donate-text-2 {
+    text-indent: 25px;
+    margin: 5px;
+}
+
+.donate-text-3 {
+    margin-left: 20px;
+}
+
+.donate-r-2 {
+    padding: 30px;
+    background-color: #afafaf;
+    border: 15px solid rgb(150, 150, 150);
+    overflow-wrap: break-word;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.donate-r {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.armor-video {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.armor-video-text {
+    text-indent: 25px;
+    font-size: 22px;
+    margin-left: 5px;
+}
+
+video {
+    width: 1040px;
+    height: 480px;
 }
