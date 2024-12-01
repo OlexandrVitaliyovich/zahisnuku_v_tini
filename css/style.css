@@ -271,7 +271,7 @@ img {
     max-height: 50%;
 }
 
-.text-armor,
+
 .text-plastik,
 .text-zigriy {
     margin: 5px 10px;
@@ -306,9 +306,9 @@ img {
 }
 
 .zelena-brona-text {
-    font-style: italic;
-    margin: 10px;
+    margin: 5px;
     font-size: 22px;
+    text-indent: 25px;
 }
 
 footer {
@@ -353,8 +353,6 @@ footer a:hover {
     color: #000000;
 }
 
-
-.zelena_brona,
 .vorogam_krishka {
     margin-top: 50px;
     margin-left: 30px;
@@ -468,11 +466,6 @@ footer a:hover {
     align-items: center;
 }
 
-.armor-video {
-    display: flex;
-    justify-content: space-between;
-    align-items: center; 
-}
 
 .armor-video-text {
     text-indent: 25px;
@@ -481,6 +474,12 @@ footer a:hover {
 }
 
 video {
-    width: 1040px;
+    width: 640px;
     height: 480px;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
